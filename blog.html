@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Blog | Valtus Ingeniería Ambiental</title>
+  <meta name="description" content="Blog de Valtus Ingeniería Ambiental.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body data-page="blog-list">
+  <header class="header">
+    <div class="contenedor">
+      <nav class="nav" id="nav" aria-label="Navegación principal">
+        <a class="logo" href="index.html#inicio">
+          <img src="/assets/images/logo-valtus.svg" alt="Valtus Ingeniería Ambiental" width="200" height="56">
+        </a>
+        <button class="hamburguesa" id="btnMenu" aria-label="Abrir menú" aria-expanded="false" aria-controls="menu">
+          <span></span><span></span><span></span>
+        </button>
+        <ul class="nav__lista" id="menu">
+          <li><a href="index.html#inicio">Inicio</a></li>
+          <li><a href="index.html#nosotros">Sobre Nosotros</a></li>
+          <li><a href="index.html#servicios">Servicios</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="index.html#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="blog-page">
+    <section class="blog-page-hero blog-page-hero--compact">
+      <div class="contenedor">
+        <p class="eyebrow">Blog</p>
+      </div>
+    </section>
+
+    <section class="seccion">
+      <div class="contenedor blog-layout">
+        <div class="blog-header-row">
+          <h2>Últimos artículos</h2>
+          <label class="blog-sort" for="ordenBlog">
+            Ordenar por
+            <select id="ordenBlog">
+              <option value="desc">Más recientes</option>
+              <option value="asc">Más antiguos</option>
+            </select>
+          </label>
+        </div>
+
+        <div class="grid-blog" id="gridBlog"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="contenedor">
+      <img src="/assets/images/logo-valtus.svg" alt="Valtus Ingeniería Ambiental" width="180" height="34" loading="lazy">
+      <p>© <span id="anio"></span> Valtus Ingeniería Ambiental. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>
