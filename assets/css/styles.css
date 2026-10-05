@@ -57,6 +57,7 @@ h1,h2,h3{color:var(--tinta);line-height:1.2;font-weight:700}
 .hero__dato span{font-size:.85rem;color:#cfe2d7}
 
 .grid-nosotros{display:grid;gap:20px}
+.grid-nosotros p, .grid-nosotros li {font-size: 15px;}
 .tarjeta{background:var(--blanco);border:1px solid var(--borde);border-radius:var(--radio);padding:26px;box-shadow:var(--sombra)}
 .tarjeta h3{font-size:1.1rem;margin-bottom:8px}
 .icono{width:44px;height:44px;border-radius:12px;background:rgba(82,183,136,.16);color:var(--verde-oscuro);display:grid;place-items:center;margin-bottom:14px}

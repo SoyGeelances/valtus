@@ -325,8 +325,30 @@ function renderBlogPage(){
       return;
     }
 
+    aviso.textContent = 'Enviando tu consulta...';
     aviso.classList.add('visible');
-    form.reset();
+
+    fetch(form.action, {
+      method: 'POST',
+      headers: { 'Accept': 'application/json' },
+      body: new FormData(form)
+    })
+      .then(function(response){
+        return response.json().then(function(data){
+          return { ok: response.ok, data: data };
+        });
+      })
+      .then(function(result){
+        if (!result.ok || result.data.success !== true) {
+          throw new Error(result.data.message || 'No se pudo enviar la consulta.');
+        }
+
+        aviso.textContent = '¡Gracias! Recibimos tu consulta y te contactaremos a la brevedad.';
+        form.reset();
+      })
+      .catch(function(){
+        aviso.textContent = 'Hubo un problema al enviar tu consulta. Intentá nuevamente en unos minutos.';
+      });
   });
 })();
 
