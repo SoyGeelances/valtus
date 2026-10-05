@@ -20,11 +20,24 @@
 
 var articulos = [
   {
+    titulo: 'Habilitación de pozos de agua: por qué la norma importa más que la perforación',
+    fecha: '2026-07-18',
+    categoria: 'Normativa',
+    extracto: 'Qué documentar, cómo registrarlo y qué indicadores ayudan a sostener una gestión ambiental eficiente.',
+    imagen: '/assets/images/blog/Habilitacion-de-pozos-de-agua-valtus.webp',
+    alt: 'Auditor revisando documentación ambiental en un edificio',
+    contenido: [
+      'Tener un pozo de agua no es solo “perforar la tierra hasta encontrar agua”. En realidad, la clave está en comprender el comportamiento del acuífero: la profundidad, la calidad fisicoquímica del recurso, la sustentabilidad de la napa y el marco regulatorio aplicable en cada jurisdicción.',
+      'La fase previa y la habilitación legal suelen subestimarse. Cuando se realiza un ensayo hidrogeológico profesional y se gestionan los permisos correspondientes, la obra se vuelve técnicamente viables, eficiente y libre de contingencias legales. Un diagnóstico técnico riguroso previene la contaminación cruzada, evita el agotamiento prematuro de la perforación y asegura el cumplimiento ante los organismos de control.',
+      'En términos prácticos, esto significa un abastecimiento hídrico continuo para tu industria o establecimiento, optimización de costos operativos y un uso responsable del recurso a largo plazo. En Valtus, desarrollamos e independizamos proyectos hídricos basados en ingeniería y normativa, no en perforaciones a ciegas.'
+    ]
+  },
+  {
     titulo: 'Manejo integrado de plagas: por qué el monitoreo importa más que el químico',
     fecha: '2026-07-28',
     categoria: 'Manejo de plagas',
     extracto: 'El MIP prioriza la prevención y el diagnóstico. Te contamos cómo un plan de monitoreo reduce hasta un 60% el uso de productos.',
-    imagen: '/assets/images/blog/control-de-plagas-palomas.jpg',
+    imagen: '/assets/images/blog/manejo-integrado-de-plagas.jpg',
     alt: 'Técnico aplicando tratamiento de control de plagas en un depósito',
     contenido: [
       'El manejo integrado de plagas no es solo “aplicar un producto y listo”. En realidad, la clave está en entender el comportamiento del problema: qué insectos o roedores están presentes, dónde se alojan, qué condiciones favorecen su presencia y cuál es el punto exacto en el que conviene actuar.',
@@ -50,7 +63,7 @@ var articulos = [
     fecha: '2026-05-02',
     categoria: 'Control de aves',
     extracto: 'Redes, púas y sistemas de exclusión permiten proteger fachadas y evitar riesgos sanitarios sin recurrir a métodos letales.',
-    imagen: '/assets/images/blog/manejo-integrado-de-plagas.jpg',
+    imagen: '/assets/images/blog/control-de-plagas-palomas.jpg',
     alt: 'Palomas sobre una cornisa protegida con red de exclusión',
     contenido: [
       'El control de palomas tiene que enfocarse en la prevención del acceso a los lugares de descanso y nidificación. Cuando se resuelven los puntos de atracción y se reemplazan condiciones favorables por medidas de exclusión, la población tiende a disminuir sin necesidad de recurrir a métodos agresivos.',
@@ -59,29 +72,16 @@ var articulos = [
     ]
   },
   {
-    titulo: 'Buenas prácticas para auditorías ambientales en edificios',
-    fecha: '2026-04-18',
-    categoria: 'Normativa',
-    extracto: 'Qué documentar, cómo registrarlo y qué indicadores ayudan a sostener una gestión ambiental eficiente.',
-    imagen: '/assets/images/blog/control-de-plagas-palomas.jpg',
-    alt: 'Auditor revisando documentación ambiental en un edificio',
-    contenido: [
-      'Las auditorías ambientales no deberían verse como un trámite aislado, sino como una oportunidad para detectar puntos de mejora y reforzar la trazabilidad.',
-      'Documentar procedimientos, registros de mantenimiento y acciones correctivas facilita no solo el control interno, sino también la relación con clientes, proveedores y organismos competentes.',
-      'La clave está en diseñar un sistema que permita monitorear indicadores de forma simple y útil, en lugar de acumular papeles que nadie consulta.'
-    ]
-  },
-  {
-    titulo: 'Cómo prevenir biofilm y malos olores en instalaciones técnicas',
+    titulo: 'Análisis de agua bacteriológico y fisicoquímico: por qué no basta con que parezca limpia',
     fecha: '2026-03-12',
     categoria: 'Higiene y agua',
     extracto: 'Mantenimiento preventivo, limpieza y control del agua para evitar focos de contaminación en sistemas complejos.',
-    imagen: '/assets/images/blog/limpieza-de-tanques.jpg',
+    imagen: '/assets/images/blog/Analisis-de-agua-bacteriologico-y-fisicoquímico.webp',
     alt: 'Instalación técnica con signos de biofilm y olor',
     contenido: [
-      'El biofilm se forma cuando la humedad, la materia orgánica y la falta de mantenimiento se combinan. Se vuelve visible en superficies y conductos y puede afectar tanto la calidad del agua como la operación del sistema.',
-      'Una estrategia preventiva incluye revisión periódica, limpieza mecánica y sanitización, además de controlar variables como temperatura y flujo. Así se reducen los riesgos sanitarios y aumenta la vida útil de la infraestructura.',
-      'Cuando el problema se aborda a tiempo, el costo de la corrección es mucho menor que el de una intervención emergente.'
+      'Un agua transparente puede esconder amebas, bacterias como Escherichia coli, exceso de nitratos o metales pesados. Sin un ensayo de laboratorio riguroso, el consumo directo o el uso industrial del recurso representa una bomba de tiempo sanitaria e infraestructura.',
+      'El riesgo invisible es el problema principal: contaminantes químicos generan incrustaciones en tuberías, desgastan maquinaria costosa y alteran procesos productivos, mientras que los agentes patógenos provocan graves brotes gastrointestinales e infecciones. Un filtrado básico o la simple cloración a ciegas no solucionan parámetros fisicoquímicos fuera de norma ni garantizan la potabilidad real.',
+      'Realizar un análisis bacteriológico y fisicoquímico preventivo permite identificar con exactitud la composición del agua y diseñar el sistema de tratamiento adecuado. Esto no solo evita sanciones en inspecciones de ambiente e higiene, sino que protege la salud de empleados o residentes y extiende la vida útil de tus instalaciones. En Valtus, fundamentamos la seguridad hídrica en diagnósticos de laboratorio certificados, no en suposiciones.'
     ]
   },
   {
@@ -89,7 +89,7 @@ var articulos = [
     fecha: '2026-02-05',
     categoria: 'Ignifugado',
     extracto: 'Revisamos qué criterios se toman en cuenta para aplicar tratamientos ignífugos con resultados confiables.',
-    imagen: '/assets/images/blog/manejo-integrado-de-plagas.jpg',
+    imagen: '/assets/images/blog/Proteccion-ignifuga-en-estructuras-de-madera-y-textiles.webp',
     alt: 'Aplicación de tratamiento ignífugo en estructura de madera',
     contenido: [
       'La protección ignífuga es especialmente importante en ambientes con riesgo alto o materiales inflamables. El tratamiento no debe pensarse como un “extra”, sino como parte del diseño de seguridad.',
